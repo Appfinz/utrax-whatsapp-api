@@ -52,7 +52,7 @@ export default async function handler(req, res) {
         });
 
     } catch (error) {
-
+        console.log("SHOPIFY WEBHOOK BODY:", JSON.stringify(req.body, null, 2));
         console.log(error.response?.data || error.message);
 
         return res.status(500).json({
