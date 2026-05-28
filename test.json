@@ -1,0 +1,411 @@
+{
+    "id": 7108703027432,
+    "admin_graphql_api_id": "gid://shopify/Order/7108703027432",
+    "app_id": 580111,
+    "browser_ip": "182.77.72.82",
+    "buyer_accepts_marketing": false,
+    "cancel_reason": null,
+    "cancelled_at": null,
+    "cart_token": "hWNCQ6AUawjwFajCtaK2TUYL",
+    "checkout_token": "121a974fbbb5775d238c9d5f7ce560b2",
+    "client_details": {
+        "accept_language": "en-IN",
+        "browser_height": null,
+        "browser_ip": "182.77.72.82",
+        "browser_width": null,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"
+    },
+    "closed_at": null,
+    "company": null,
+    "confirmation_number": "YHA8WW0AI",
+    "confirmed": true,
+    "contact_email": null,
+    "created_at": "2026-05-21T09:20:35-04:00",
+    "currency": "INR",
+    "current_shipping_price_set": {
+        "shop_money": {
+            "amount": "1.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "1.00",
+            "currency_code": "INR"
+        }
+    },
+    "current_subtotal_price": "89.00",
+    "current_subtotal_price_set": {
+        "shop_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        }
+    },
+    "current_total_additional_fees_set": null,
+    "current_total_discounts": "0.00",
+    "current_total_discounts_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "current_total_duties_set": null,
+    "current_total_price": "90.00",
+    "current_total_price_set": {
+        "shop_money": {
+            "amount": "90.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "90.00",
+            "currency_code": "INR"
+        }
+    },
+    "current_total_tax": "0.00",
+    "current_total_tax_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "customer_locale": "en-IN",
+    "device_id": null,
+    "discount_codes": [],
+    "duties_included": false,
+    "email": "",
+    "estimated_taxes": false,
+    "financial_status": "pending",
+    "fulfillment_status": null,
+    "landing_site": "/",
+    "landing_site_ref": null,
+    "location_id": null,
+    "merchant_business_entity_id": "19403342056",
+    "merchant_of_record_app_id": null,
+    "name": "UTW1003",
+    "note": null,
+    "note_attributes": [
+        {
+            "name": "__rzp_data",
+            "value": "{\"hide_login_widget\":true,\"cod\":1}"
+        },
+        {
+            "name": "rzp_analytics",
+            "value": "{\"shopify_session_token\":\"3334a117-b8f5-4c93-b8d2-dc89d055796e\",\"checkout_id\":\"Ss1ozuKNDyjls7\",\"amount\":8900,\"storefront_url\":\"https://utrax.in\",\"key\":\"rzp_live_oauth_SlyIY7CG4vBLSI\",\"cart_token\":\"hWNCQ6AUawjwFajCtaK2TUYL?key=487ce6d90555a114dd2e042b213ea24f\",\"v2\":true,\"device_id\":\"Ss1O7ZqR2c1PFI\"}"
+        }
+    ],
+    "number": 3,
+    "order_number": 1003,
+    "order_status_url": "https://utrax.in/78877065448/orders/c9edfd72add45d0e01ed5d6e10b6641b/authenticate?key=1d1bca7f3f18514a3a1c6d0a605da5f8",
+    "original_total_additional_fees_set": null,
+    "original_total_duties_set": null,
+    "payment_gateway_names": [
+        "Cash on Delivery (COD)"
+    ],
+    "phone": "+917303408500",
+    "po_number": null,
+    "presentment_currency": "INR",
+    "processed_at": "2026-05-21T09:20:34-04:00",
+    "reference": null,
+    "referring_site": "https://admin.shopify.com/",
+    "source_identifier": null,
+    "source_name": "web",
+    "source_url": null,
+    "subtotal_price": "89.00",
+    "subtotal_price_set": {
+        "shop_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        }
+    },
+    "tags": "",
+    "tax_exempt": false,
+    "tax_lines": [],
+    "taxes_included": false,
+    "test": false,
+    "token": "c9edfd72add45d0e01ed5d6e10b6641b",
+    "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_discounts": "0.00",
+    "total_discounts_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_line_items_price": "89.00",
+    "total_line_items_price_set": {
+        "shop_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "89.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_outstanding": "90.00",
+    "total_price": "90.00",
+    "total_price_set": {
+        "shop_money": {
+            "amount": "90.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "90.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_shipping_price_set": {
+        "shop_money": {
+            "amount": "1.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "1.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+        "shop_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        },
+        "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "INR"
+        }
+    },
+    "total_tip_received": "0.00",
+    "total_weight": 0,
+    "updated_at": "2026-05-21T09:20:36-04:00",
+    "user_id": null,
+    "billing_address": {
+        "first_name": "HR",
+        "address1": "16-B",
+        "phone": null,
+        "city": "Central Delhi",
+        "zip": "110005",
+        "province": "Delhi",
+        "country": "India",
+        "last_name": "dsgsdf",
+        "address2": "Patel Rd, Block 34, East Patel Nagar, Rajendra Place",
+        "company": null,
+        "latitude": 28.691989,
+        "longitude": 77.179273,
+        "name": "HR dsgsdf",
+        "country_code": "IN",
+        "province_code": "DL"
+    },
+    "customer": {
+        "id": 9351811236072,
+        "created_at": "2026-05-21T09:20:34-04:00",
+        "updated_at": "2026-05-21T09:20:36-04:00",
+        "first_name": "HR",
+        "last_name": "dsgsdf",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "email": null,
+        "phone": "+917303408500",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/9351811236072",
+        "default_address": {
+            "id": 10781175808232,
+            "customer_id": 9351811236072,
+            "first_name": "HR",
+            "last_name": "dsgsdf",
+            "company": null,
+            "address1": "16-B",
+            "address2": "Patel Rd, Block 34, East Patel Nagar, Rajendra Place",
+            "city": "Central Delhi",
+            "province": "Delhi",
+            "country": "India",
+            "zip": "110005",
+            "phone": null,
+            "name": "HR dsgsdf",
+            "province_code": "DL",
+            "country_code": "IN",
+            "country_name": "India",
+            "default": true
+        }
+    },
+    "discount_applications": [],
+    "fulfillments": [],
+    "line_items": [
+        {
+            "id": 16736319701224,
+            "admin_graphql_api_id": "gid://shopify/LineItem/16736319701224",
+            "attributed_staffs": [],
+            "current_quantity": 1,
+            "fulfillable_quantity": 1,
+            "fulfillment_service": "manual",
+            "fulfillment_status": null,
+            "gift_card": false,
+            "grams": 0,
+            "name": "1.2 M Type C to Type C TPE Cable with Metal Heads",
+            "price": "89.00",
+            "price_set": {
+                "shop_money": {
+                    "amount": "89.00",
+                    "currency_code": "INR"
+                },
+                "presentment_money": {
+                    "amount": "89.00",
+                    "currency_code": "INR"
+                }
+            },
+            "product_exists": true,
+            "product_id": 9461651800296,
+            "properties": [],
+            "quantity": 1,
+            "requires_shipping": true,
+            "sales_line_item_group_id": null,
+            "sku": "BT60- 1.2",
+            "taxable": false,
+            "title": "1.2 M Type C to Type C TPE Cable with Metal Heads",
+            "total_discount": "0.00",
+            "total_discount_set": {
+                "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "INR"
+                },
+                "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "INR"
+                }
+            },
+            "variant_id": 48404047790312,
+            "variant_inventory_management": "shopify",
+            "variant_title": null,
+            "vendor": "UTRAX",
+            "tax_lines": [
+                {
+                    "channel_liable": false,
+                    "price": "0.00",
+                    "price_set": {
+                        "shop_money": {
+                            "amount": "0.00",
+                            "currency_code": "INR"
+                        },
+                        "presentment_money": {
+                            "amount": "0.00",
+                            "currency_code": "INR"
+                        }
+                    },
+                    "rate": 0.18,
+                    "title": "IGST"
+                }
+            ],
+            "duties": [],
+            "discount_allocations": []
+        }
+    ],
+    "payment_terms": null,
+    "refunds": [],
+    "shipping_address": {
+        "first_name": "HR",
+        "address1": "16-B",
+        "phone": null,
+        "city": "Central Delhi",
+        "zip": "110005",
+        "province": "Delhi",
+        "country": "India",
+        "last_name": "dsgsdf",
+        "address2": "Patel Rd, Block 34, East Patel Nagar, Rajendra Place",
+        "company": null,
+        "latitude": 28.691989,
+        "longitude": 77.179273,
+        "name": "HR dsgsdf",
+        "country_code": "IN",
+        "province_code": "DL"
+    },
+    "shipping_lines": [
+        {
+            "id": 5712426008808,
+            "carrier_identifier": null,
+            "code": "मानक",
+            "current_discounted_price_set": {
+                "shop_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                },
+                "presentment_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                }
+            },
+            "discounted_price": "1.00",
+            "discounted_price_set": {
+                "shop_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                },
+                "presentment_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                }
+            },
+            "is_removed": false,
+            "phone": null,
+            "price": "1.00",
+            "price_set": {
+                "shop_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                },
+                "presentment_money": {
+                    "amount": "1.00",
+                    "currency_code": "INR"
+                }
+            },
+            "requested_fulfillment_service_id": null,
+            "source": "shopify",
+            "title": "मानक",
+            "tax_lines": [],
+            "discount_allocations": []
+        }
+    ],
+    "returns": [],
+    "line_item_groups": []
+}

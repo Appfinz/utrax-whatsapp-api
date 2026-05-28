@@ -13,30 +13,69 @@ export default async function handler(req, res) {
 
         const order = req.body;
 
+        console.log(
+            "SHOPIFY WEBHOOK BODY:",
+            JSON.stringify(order, null, 2)
+        );
+
         const customerPhone =
             order?.customer?.phone ||
-            order?.billing_address?.phone;
+            order?.billing_address?.phone ||
+            order?.shipping_address?.phone;
 
         if (!customerPhone) {
             return res.status(200).json({
                 success: false,
-                message: "No phone number"
+                message: "No phone number found"
             });
         }
 
         const cleanPhone = customerPhone.replace(/\D/g, "");
 
-        await axios.post(
+        const customerName =
+            order?.customer?.first_name ||
+            order?.billing_address?.first_name ||
+            "Customer";
+
+        const orderId =
+            order?.name ||
+            order?.id ||
+            "N/A";
+
+        const orderAmount =
+            order?.total_price ||
+            "0";
+
+        const response = await axios.post(
             `https://graph.facebook.com/v22.0/${process.env.PHONE_NUMBER_ID}/messages`,
             {
                 messaging_product: "whatsapp",
                 to: cleanPhone,
                 type: "template",
                 template: {
-                    name: "hello_world",
+                    name: "order_confirmation",
                     language: {
                         code: "en_US"
-                    }
+                    },
+                    components: [
+                        {
+                            type: "body",
+                            parameters: [
+                                {
+                                    type: "text",
+                                    text: customerName
+                                },
+                                {
+                                    type: "text",
+                                    text: orderId.toString()
+                                },
+                                {
+                                    type: "text",
+                                    text: orderAmount.toString()
+                                }
+                            ]
+                        }
+                    ]
                 }
             },
             {
@@ -47,13 +86,22 @@ export default async function handler(req, res) {
             }
         );
 
+        console.log(
+            "WHATSAPP RESPONSE:",
+            response.data
+        );
+
         return res.status(200).json({
-            success: true
+            success: true,
+            message: "WhatsApp message sent successfully"
         });
 
     } catch (error) {
-        console.log("SHOPIFY WEBHOOK BODY:", JSON.stringify(req.body, null, 2));
-        console.log(error.response?.data || error.message);
+
+        console.log(
+            "WHATSAPP ERROR:",
+            error.response?.data || error.message
+        );
 
         return res.status(500).json({
             success: false,
