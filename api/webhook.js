@@ -55,7 +55,7 @@ export default async function handler(req, res) {
                 template: {
                     name: "order_confirmation",
                     language: {
-                        code: "en_US"
+                        code: "en"
                     },
                     components: [
                         {
