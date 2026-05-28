@@ -63,14 +63,17 @@ export default async function handler(req, res) {
                             parameters: [
                                 {
                                     type: "text",
+                                    parameter_name: "customer_name",
                                     text: customerName
                                 },
                                 {
                                     type: "text",
+                                    parameter_name: "order_id",
                                     text: orderId.toString()
                                 },
                                 {
                                     type: "text",
+                                    parameter_name: "order_amount",
                                     text: orderAmount.toString()
                                 }
                             ]
